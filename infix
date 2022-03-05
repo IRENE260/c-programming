@@ -123,9 +123,15 @@ int main()
     int count, length;
     char temp;
     top = -1;
-    printf("\nINPUT THE INFIX EXPRESSION : ");
+    printf("\nIPUT THE INFIX EXPRESSION : ");
     scanf("%s", infix_string);
     infix_to_postfix();
     printf("\nEQUIVALENT POSTFIX EXPRESSION : %s\n", postfix_string);
     return 0;
 }
+output:
+token:) stack:) postfix:
+token :s stack:) postfix:s
+token :+ stack :(+ postfix:s
+token : d stack:(+ postfix:s d
+token :) stack:(+ postfix:s d+
