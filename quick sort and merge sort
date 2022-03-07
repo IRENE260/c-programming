@@ -79,7 +79,7 @@ Enter the elements:
 12
 15
 The sorted array: 12 15 65 234
-Heap sort
+Merge sort
 #include  <stdio.h>
 
 void  mergesort(int  x[ ] , int  n)
